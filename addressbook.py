@@ -1,5 +1,4 @@
 
-
 #creates an empty list for each quadrant in DC
 
 nw_addresses = []
