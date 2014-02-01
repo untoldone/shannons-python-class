@@ -1,4 +1,3 @@
-
 #creates an empty list for each quadrant in DC
 
 nw_addresses = []
@@ -24,13 +23,13 @@ for x in range(3):
 #if an item is in a certain quadrant, add that item to a list 
 
 
-	if 'NW' in address or 'nw' in address:
+	if 'nw' in address.lower():
 		nw_addresses.append(address)
-	if 'NE' in or 'ne' in address:
+	if 'ne' in address.lower():
 		ne_addresses.append(address)
-	if 'SW' in address:
+	if 'sw' in address.lower():
 		sw_addresses.append(address)
-	if 'SE' in address:
+	if 'se' in address.lower():
 		se_addresses.append(address)
 
 #print out your quadrants
